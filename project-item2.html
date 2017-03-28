@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+<style type="text/css">
+p{
+    font-size: 15px;
+}
+h2{
+    text-align: left;
+    font-family: arial;
+}
+p.after-pic{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: fantasy;
+    font-style: bold;
+}
+p.desc{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+video {  
+   width:100%; 
+   max-width:760px; 
+   height:auto; 
+}
 
+</style>
 <head>
 
     <meta charset="utf-8">
@@ -56,7 +80,7 @@
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
-            <div class="col-lg-12">
+            
                 <h1 class="page-header">project overview
                     
                 </h1>
@@ -70,25 +94,79 @@
         <!-- /.row -->
 
         <!-- Portfolio Item Row -->
-        <div class="row">
-            <div class="col-md-6">
-                <a href="project-item.html">
-                    <img class="img-responsive img-hover" src="img\Puzzler.PNG" alt="">
-                </a>
-            </div>
-            <div class="col-md-6">
-                <h3>Puzzler Project</h3>
-                <p>What this project is? a Virtual Reality game as project of Udacity VR Nanodegree (design lesson) the main aim is design a game easily for interaction with user and guarantee that by testing methods. Puzzler: we test your memory in VR experience how ? by make some balls randomly lights and you have to remember the order to pass the gate.</p>
+    
+    <div class="container">
+          <h2 class="text-center"><b>Puzzler</b></h2>
+            <div class="col-md-9 col-md-offset-2" >
+                <img src="img/Puzzler.PNG" alt="" class="img-responsive" />  
 
-                <p>Game properties Lighting: adding 4 point yellow non flame lighting w 1 directional purple lighting . Sounding: Adding Background Audio with loop as theme for place with customized audio for balls . Visuals : it likes Historical and Funny at same time.</p>
+                <p class="after-pic">As part of my VR Nanodegree program at Udacity, I designed, tested and iterated a mobile VR Puzzler game..
+                </p>
 
-                <p>final piece the final piece of the game started with a big UI text and button with text “start” the to start game you should click it , then you are in :D , the mystery starts with an historical place like in below pics where you will move in and the balls started to lighting then you have to click them at same order the had lighted to check your memory , then you may play again by clicking at restart button in the ending UI .</p>
-               <h4>This Project on Medium    <a href="https://medium.com/@amirahmed_40553/amirs-puzzler-project-45520667d0d8#.776vvk2s5"><i class="fa fa-medium" style="font-size:24px;" aria-hidden="true"></i>
-                </a></h4>
-                <h4>The Video on Youtube        <a href="https://www.youtube.com/watch?v=Kd-QaJGFAv4&feature=youtu.be"><i class="fa fa-youtube" style="font-size:24px;"></i></a></h4>   
+                <h2><b>Project Title:</b></h2><hr>
+                <p class="desc">For this project we are required to design a simple mobile game/app, having the user experience in mind. To achieve this goal, we will conduct user testing to get feedback frequently, so that changes are easier to make in early stages of development. It is important to note that we take ergonomics, aural and visual stimuli into account to implement an intuitive and easy to play a game.</p>
 
-            </div>
-        </div>
+                
+                
+                <h2><b>Here is a video showing the game in action</b></h2><hr>                   
+                        
+                <video width="800" controls>
+                            <source src="video/Puzzler.mp4" type="video/mp4">
+                            <source src="video/Puzzler.ogg" type="video/ogg">
+                            Your browser does not support HTML5 video.
+                </video>
+                <br><br>
+                 <h2><b>Design Process</b></h2><hr>
+
+                <p class="desc">Statement of Purpose: the puzzle is a virtual reality game for a mobile user should remember the balls that were lit to complete the game.
+                </p>   
+
+                <h2><b>User Testing</b></h2><hr>
+
+                <p class="desc"> No matter how well you can plan, you will never know anything until someone tries it out. That was a consistent theme throughout the build process. Marking a goal to implement some piece than getting it in front of someone as soon as possible to test out helps a lot.
+                </p>
+
+                <h2><b>Here are some questions I asked their receptive user responses.</b></h2><hr>
+
+                <h3><b>Q: how do you feel about UI ?</b></h3>
+                <p class="desc">A: the interface of the start and the end are good but the camera away from them I think you make the camera close to them.</p>
+                <p class="desc">Change: I made the camera close to them</p>
+
+                <h3><b>Q:  How do you feel when moving? Is it fast or slow motion ?</b></h3>
+                <p class="desc">A: Quick little movement so I think it should reduce a little movement. </p><br><hr>
+                <p class="desc">Change: I made the movement slow down</p>
+
+
+                <h2><b>Breakdown of final piece</b></h2><hr>
+
+                <p class="desc">This section walks you through each area of the game with descriptions of the final piece as well as their development progression.</p>
+
+                <p class="desc">The player starts with simple UI to go the dungeon where he can solve the orbs puzzle and go to the end UI to restart the game.</p>
+
+                <div class="images">
+                <img src="imag/Puzzler/2.png" alt="" class="img-responsive" />
+                        <h2><center> Start </center></h2>
+                <img src="imag/Puzzler/3.png" alt="" class="img-responsive" />
+                         <h2><center>Play</center></h2>        
+                <img src="imag/Puzzler/4.png" alt="" class="img-responsive" />
+                        <h2><center>End</center></h2>        
+                </div>
+
+                <h2><b>Conclusion</b></h2><hr>
+
+                <p class="desc">Puzzler introduces many simplest techniques for sickness movement for developer and beginners in Virtual Reality technology.</p>   
+
+                
+                <h2><b>Next Steps</b></h2><hr>
+                <p class="desc">For future development, Puzzler will have multi rooms with a different puzzle and for other Headsets beginning with Oculus Rift.</p>
+
+                <h2><b>Link to additional work</b></h2><hr>
+                <p class="desc">To check out more of my work, visit my <a href="https://github.com/AmirAhmedDarrag"> GitHub</a> profile</p> 
+            
+    </div>
+                
+            </div>      
+        </div>   
          <!-- Footer -->
     <footer>
         <div class="container">
@@ -122,7 +200,6 @@
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
-
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
